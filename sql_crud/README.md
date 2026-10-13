@@ -28,3 +28,10 @@ All columns are explicitly listed to map values correctly.
 Run once after creating the books table:
 
     sqlite3 my_database.db < 1-insert_data.sql
+
+## Task 2: Retrieve All Data
+
+2-select_all.sql retrieves every column and row from books.
+The query does not filter, sort, limit, or modify data.
+
+    sqlite3 my_database.db < 2-select_all.sql
