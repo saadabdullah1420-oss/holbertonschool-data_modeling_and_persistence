@@ -63,3 +63,12 @@ Execute each file against the provided dataset, for example:
 
 Each file contains one UPDATE statement with SET and WHERE.
 Execute each file independently on a clean copy of the provided dataset.
+
+## Task 6: Delete Rows
+
+- 6-delete_by_id.sql: deletes the book with id 8.
+- 6-delete_by_condition.sql: deletes books with zero stock.
+- 6-delete_with_and.sql: deletes books published before 1950 with price < 9.
+
+Each file contains one DELETE statement with WHERE.
+Execute each file independently on a clean copy of the provided dataset.
