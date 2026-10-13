@@ -35,3 +35,10 @@ Run once after creating the books table:
 The query does not filter, sort, limit, or modify data.
 
     sqlite3 my_database.db < 2-select_all.sql
+
+## Task 3: Select Specific Columns
+
+3-select_columns.sql retrieves title and price for all books.
+The output columns are ordered as title, then price.
+
+    sqlite3 my_database.db < 3-select_columns.sql
