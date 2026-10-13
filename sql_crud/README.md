@@ -72,3 +72,12 @@ Execute each file independently on a clean copy of the provided dataset.
 
 Each file contains one DELETE statement with WHERE.
 Execute each file independently on a clean copy of the provided dataset.
+
+## Task 7: Order and Limit Results
+
+- 7-order_by_price_asc.sql: all books from lowest to highest price.
+- 7-order_by_year_desc.sql: all books from newest to oldest publication year.
+- 7-limit_results.sql: the three cheapest books.
+- 7-order_and_limit.sql: the five books with the highest stock.
+
+Each file contains one SELECT query and does not modify data.
