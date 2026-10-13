@@ -19,3 +19,12 @@ SQL scripts for managing books using SQLite.
     sqlite3 my_database.db < 0-create_table.sql
 
 Run on a database where the books table does not already exist.
+
+## Task 1: Insert Data
+
+1-insert_data.sql inserts the five required books using one INSERT statement.
+All columns are explicitly listed to map values correctly.
+
+Run once after creating the books table:
+
+    sqlite3 my_database.db < 1-insert_data.sql
