@@ -81,3 +81,13 @@ Execute each file independently on a clean copy of the provided dataset.
 - 7-order_and_limit.sql: the five books with the highest stock.
 
 Each file contains one SELECT query and does not modify data.
+
+## Task 8: Aggregate Functions
+
+- 8-count_books.sql: counts all book records.
+- 8-average_price.sql: calculates the average price.
+- 8-max_stock.sql: finds the maximum stock.
+- 8-total_stock.sql: sums all available units.
+- 8-min_price.sql: finds the minimum price.
+
+Each file returns a single value without modifying data.
