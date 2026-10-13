@@ -91,3 +91,13 @@ Each file contains one SELECT query and does not modify data.
 - 8-min_price.sql: finds the minimum price.
 
 Each file returns a single value without modifying data.
+
+## Task 9: Group Data
+
+- 9-count_by_genre.sql: counts books per genre.
+- 9-average_price_by_genre.sql: calculates average price per genre.
+- 9-total_stock_by_genre.sql: sums available stock per genre.
+- 9-count_by_author.sql: counts books per author.
+
+Each file contains one grouped SELECT query without modifying data.
+Result order is not guaranteed.
