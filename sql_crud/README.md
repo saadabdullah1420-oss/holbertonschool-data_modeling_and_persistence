@@ -54,3 +54,12 @@ Each file contains one SELECT query and does not modify data.
 Execute each file against the provided dataset, for example:
 
     sqlite3 books_dataset.db < 4-filter_by_genre.sql
+
+## Task 5: Update Rows
+
+- 5-update_by_id.sql: sets the price of book 3 to 35.00.
+- 5-update_by_condition.sql: adds 5 to stock for books published before 2000.
+- 5-update_with_and.sql: reduces prices by 10% for Tech books with stock > 5.
+
+Each file contains one UPDATE statement with SET and WHERE.
+Execute each file independently on a clean copy of the provided dataset.
