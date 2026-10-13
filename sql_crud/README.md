@@ -4,22 +4,18 @@ SQL scripts for managing books using SQLite.
 
 ## Task 0: Create a Table
 
-0-create_table.sql creates the books table with these columns:
+0-create_table.sql creates the books table.
 
 - id: INTEGER PRIMARY KEY
 - title: TEXT NOT NULL
 - author: TEXT NOT NULL
-- genre: TEXT
+- genre: TEXT NOT NULL
 - price: REAL NOT NULL
 - stock: INTEGER NOT NULL
-- published_year: INTEGER
+- published_year: INTEGER NOT NULL
 
 ## Usage
 
-Run on a database where the books table does not already exist:
-
     sqlite3 my_database.db < 0-create_table.sql
 
-Inspect the table structure:
-
-    sqlite3 my_database.db ".schema books"
+Run on a database where the books table does not already exist.
