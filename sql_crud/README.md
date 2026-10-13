@@ -42,3 +42,15 @@ The query does not filter, sort, limit, or modify data.
 The output columns are ordered as title, then price.
 
     sqlite3 my_database.db < 3-select_columns.sql
+
+## Task 4: Filter Rows
+
+- 4-filter_by_genre.sql: titles and authors of Tech books.
+- 4-filter_by_price.sql: titles and prices where price > 20.
+- 4-filter_with_and.sql: titles and prices where genre is Tech and price > 30.
+- 4-filter_with_or.sql: titles and genres where genre is Fantasy or price < 10.
+
+Each file contains one SELECT query and does not modify data.
+Execute each file against the provided dataset, for example:
+
+    sqlite3 books_dataset.db < 4-filter_by_genre.sql
