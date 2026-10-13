@@ -101,3 +101,15 @@ Each file returns a single value without modifying data.
 
 Each file contains one grouped SELECT query without modifying data.
 Result order is not guaranteed.
+
+## Task 10: Integrative Queries
+
+- 10-select_tech_books.sql: Tech books published in or after 2000.
+- 10-increase_stock.sql: adds 3 units where stock is below 5.
+- 10-delete_zero_stock.sql: removes books with zero stock.
+- 10-cheapest_available.sql: the four cheapest books with positive stock.
+- 10-stock_by_genre.sql: total stock per genre.
+- 10-average_price_by_genre.sql: average price per genre.
+
+Each file contains one query and is evaluated independently.
+Equal prices in the cheapest-books query are ordered by id.
