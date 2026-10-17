@@ -11,3 +11,11 @@ Returns title and author_name, ordered by title ascending.
 ## Usage
 
     sqlite3 library.db < 1-books-with-authors.sql
+
+## Task 3: Students and Their Courses
+
+3-students-and-courses.sql joins students, enrollments, and courses.
+Returns one row per enrollment with student_name and course_title.
+Results are ordered ascending by student_name, then course_title.
+
+    sqlite3 library.db < 3-students-and-courses.sql
